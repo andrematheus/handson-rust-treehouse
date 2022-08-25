@@ -32,7 +32,7 @@ fn main() {
     println!("Hello, what's your name?");
     let mut name = what_is_your_name();
 
-    let visitor_list = [
+    let visitor_list = vec![
         Visitor::new("bert", "Hello Bert, enjoy your treehouse."),
         Visitor::new("steve", "Hi Steve. Your milk is in the fridge."),
         Visitor::new("fred", "Wow, who invited Fred?"),
